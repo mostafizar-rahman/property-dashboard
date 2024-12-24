@@ -43,7 +43,7 @@ const AddProperty = () => {
 
     return (
         <div className="p-6">
-            <div className="bg-white p-6 w-full">
+            <div className="bg-background p-6 w-full">
                 <h2 className="text-xl font-bold mb-4">Add New Property</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
