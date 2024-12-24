@@ -1,0 +1,46 @@
+import { Property } from "@/types/property";
+
+export const initialProperties: Property[] = [
+  {
+    id: 1,
+    name: 'Luxury Downtown Apartment',
+    type: 'Apartment',
+    status: 'Available',
+    address: '123 Main St, Downtown',
+    price: 2500,
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80',
+    checkInDate: '2024-03-01',
+    checkOutDate: '2024-03-15',
+  },
+  {
+    id: 2,
+    name: 'Suburban Family Home',
+    type: 'House',
+    status: 'Rented',
+    address: '456 Oak Ave, Suburbs',
+    price: 3200,
+    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80',
+    checkInDate: '2024-02-15',
+  },
+  {
+    id: 3,
+    name: 'Modern Office Space',
+    type: 'Commercial',
+    status: 'Available',
+    address: '789 Business Blvd',
+    price: 5000,
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
+    checkOutDate: '2024-03-10',
+  },
+  {
+    id: 5,
+    name: 'Luxury Downtown Apartment',
+    type: 'Apartment',
+    status: 'Rented',
+    address: '123 Main St, Downtown',
+    price: 1500,
+    image: 'https://images.unsplash.com/photo-1494475673543-6a6a27143fc8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    checkInDate: '2024-03-01',
+    checkOutDate: '2024-03-15',
+  },
+];
